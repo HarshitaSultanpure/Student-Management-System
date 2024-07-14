@@ -1,0 +1,65 @@
+body
+{
+	
+	 background:linear-gradient(yellow,green,blue,red); 
+}
+
+#mymenu
+{
+	background:rgba(0,0,0,0.2);
+	/* background:linear-gradient(yellow,green); */
+	color:white;
+	text-align:right;
+}
+
+#mymenu ul li
+{
+	display:inline-block;
+	margin-left:20;
+	/* float:right; */
+	padding:25px;
+}
+
+#mymenu ul li:hover
+{
+	background:gray;
+	color:black;
+}
+
+#mydata
+{
+	margin-top:120px;
+}
+
+table
+{
+	background:rgba(0,0,0,0.2);
+	color:white;
+	box-shadow: 15px 15px 15px white;
+}
+
+.A
+{
+	border-radius:50px;
+}
+
+.B
+{
+	width:85px;
+	height:40px;
+	border-radius: 17px 17px 17px 17px;
+	background:black;
+	color:white;
+}
+
+.B:hover
+{
+	padding:20px;
+	border-radius:15px 15px 15px 15px;
+	background:pink;
+	color:black;
+	/* body */
+	/* { */
+	/* background:linear-gradient(yellow,green,blue,red); */
+	/* } */
+}
